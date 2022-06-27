@@ -1,0 +1,63 @@
+
+<soapenv:Envelope 	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<env:Body 	xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mmupcpxsd="urn:baladiya.gov.qa/commercialPermit/xml/schemas/v1_0/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:ns2="urn:baladiya.gov.qa/commonTypes/xml/schemas/v1_0/" xmlns:ns1="urn:baladiya.gov.qa/commercialPermit/specifications/v1_0/">
+<ns2:getCommercialPermitInfoResponse 	xmlns:ns2="http://xmlns.oracle.com/MOL_ExternalIntegrationsApp/MOCI_Integration/MOCI_ServicesProxy">
+<ns2:commercialRegistrationDetails>
+<ns2:ID>60529</ns2:ID>
+<ns2:branchNumber>0</ns2:branchNumber>
+</ns2:commercialRegistrationDetails>
+<ns2:establishmentCommercialName>
+<ns2:nameArabic>سنيار غلوبال ترادنغ</ns2:nameArabic>
+<ns2:nameEnglish/>
+</ns2:establishmentCommercialName>
+<ns2:issueDate>2013-01-30T00:00:00+03:00</ns2:issueDate>
+<ns2:expiryDate>2025-01-01T00:00:00+03:00</ns2:expiryDate>
+<ns2:municipalityName>
+<ns2:nameArabic/>
+<ns2:nameEnglish/>
+</ns2:municipalityName>
+<ns2:location>
+<ns2:buildingNumber/>
+<ns2:street>
+<ns2:number/>
+<ns2:name>
+<ns2:nameArabic/>
+<ns2:nameEnglish/>
+</ns2:name>
+</ns2:street>
+<ns2:zone>
+<ns2:number/>
+<ns2:name>
+<ns2:nameArabic/>
+<ns2:nameEnglish/>
+</ns2:name>
+</ns2:zone>
+</ns2:location>
+<ns2:commercialPermitID>92450</ns2:commercialPermitID>
+<ns2:licenseeQID/>
+<ns2:licenseeName/>
+<ns2:licenseeNationality/>
+<ns2:managerQID/>
+<ns2:managerName/>
+<ns2:managerNationality/>
+<ns2:companyActivity>تجارة مواد البناء</ns2:companyActivity>
+<ns2:buildingOwner/>
+<ns2:licenseType>عيادة بيطرية</ns2:licenseType>
+<ns2:remarks/>
+<ns2:establishmentType>شركة</ns2:establishmentType>
+<ns2:commercialPermitStatus>نشط</ns2:commercialPermitStatus>
+<ns2:commercialPermitStatusCode>Active</ns2:commercialPermitStatusCode>
+<ns2:applicationNumber>
+<ns2:municipalityID/>
+<ns2:year/>
+<ns2:number/>
+</ns2:applicationNumber>
+<ns2:responseStatus>
+<ns2:responseStatus>200</ns2:responseStatus>
+<ns2:responseCode>1</ns2:responseCode>
+<ns2:responseMessageAr>تمت العملية بنجاح</ns2:responseMessageAr>
+<ns2:responseMessageEn>Operation completed successfully</ns2:responseMessageEn>
+</ns2:responseStatus>
+</ns2:getCommercialPermitInfoResponse>
+</env:Body>
+</soapenv:Envelope>
